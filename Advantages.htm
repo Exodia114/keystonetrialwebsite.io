@@ -1,0 +1,265 @@
+<html>
+</html>
+<Head>
+<Title>
+Keystone
+</title>
+</Head>
+<body background="Back 2.jpg" bgproperties="fixed" bgcolor="Black"> 
+<BGSOUND SRC="Desala Edit.mp3" LOOP="INFINITE">
+
+
+
+
+
+<SCRIPT TYPE="text/javascript">
+<!--
+// copyright 1999 Idocs, Inc. http://www.idocs.com/tags/
+// Distribute this script freely, but please keep this 
+// notice with the code.
+
+var rollOverArr=new Array();
+function setrollover(OverImgSrc,pageImageName)
+{
+if (! document.images)return;
+if (pageImageName == null)
+    pageImageName = document.images[document.images.length-1].name;
+rollOverArr[pageImageName]=new Object;
+rollOverArr[pageImageName].overImg = new Image;
+rollOverArr[pageImageName].overImg.src=OverImgSrc;
+}
+
+function rollover(pageImageName)
+{
+if (! document.images)return;
+if (! rollOverArr[pageImageName])return;
+if (! rollOverArr[pageImageName].outImg)
+    {
+    rollOverArr[pageImageName].outImg = new Image;
+    rollOverArr[pageImageName].outImg.src = document.images[pageImageName].src;
+    }
+document.images[pageImageName].src=rollOverArr[pageImageName].overImg.src;
+}
+
+function rollout(pageImageName)
+{
+if (! document.images)return;
+if (! rollOverArr[pageImageName])return;
+document.images[pageImageName].src=rollOverArr[pageImageName].outImg.src;
+}
+//-->
+</SCRIPT>
+
+
+
+<TABLE  BORDER="0" align="center" width="640" height="20">
+
+<TR>
+<td colspan="3" height="18">
+<font color="#FFFFFF">Welcome to : KMCS<hr size="1" /hr/></font></td>
+
+
+</tr>
+
+<TABLE  BORDER="0" align="center">
+
+<TR>
+
+<td colspan="3" height="20">
+<a href="index.htm">
+<img border="0" src="KMCS LOGO.png" width="300" height="138"></a>
+<font color="#FFFFFF">
+Contact Us :
+<A 
+    HREF="mailto:kmcsltd2011@gmail.com"/"
+    onMouseOver = "rollover('Send_an_Email.jpg')" 
+    onMouseOut  = "rollout('Send_an_Email.jpg')" 
+    >
+<IMG 
+    SRC="Send_an_Email.jpg" 
+    NAME="Send_an_Email.jpg" 
+    ALT="Email Us" BORDER=0 width="80" height="15"></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Send _an_Email fade.jpg");
+//-->
+</SCRIPT></td>
+
+</tr>
+
+<table align="center" height="20" width="640">
+
+<TR>
+<td width="15%"><font color="#FFFFFF">Home Menu</font></td>
+</td>
+
+<td width="85%"><hr size="1"></hr/></td>
+</tr>
+</table>
+
+
+
+<table align="center" height="20" width="640">
+<tr>
+
+<TD  width="156" height="20" ><A 
+    HREF="Who we are.htm"
+    onMouseOver = "rollover('Who we are')" 
+    onMouseOut  = "rollout('Who we are')" 
+    >
+<IMG 
+    SRC="Who we are.jpg" 
+    NAME="Who we are" 
+    ALT="Who we are" BORDER=0 width="156" height="20" 
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Who we are Fade.jpg");
+//-->
+</SCRIPT>
+
+</TD>
+
+<TD  width="156" height="20" ><A 
+    HREF="Historical Background.htm"
+    onMouseOver = "rollover('History')" 
+    onMouseOut  = "rollout('History')" 
+    >
+<IMG 
+    SRC="History.jpg" 
+    NAME="History" 
+    ALT="History" BORDER=0 width="156" height="20" 
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("History Fade.jpg");
+//-->
+</SCRIPT>
+
+</TD>
+
+<TD  width="156" height="20" ><A 
+    HREF="Objectives.htm"
+    onMouseOver = "rollover('Objectives')" 
+    onMouseOut  = "rollout('Objectives')" 
+    >
+<IMG 
+    SRC="Objectives.jpg" 
+    NAME="Objectives" 
+    ALT="Objectives" BORDER=0 width="156" height="20" 
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Objectives Fade.jpg");
+//-->
+</SCRIPT>
+</TD>
+
+<TD  width="156" height="20" ><A 
+    HREF="Advantages.htm"
+    onMouseOver = "rollover('Advantages')" 
+    onMouseOut  = "rollout('Advantages')" 
+    >
+<IMG 
+    SRC="Advantages.jpg" 
+    NAME="Advantages" 
+    ALT="Advantages" BORDER=0 width="156" height="20" 
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Advantages Fade.jpg");
+//-->
+</SCRIPT>
+</TD>
+
+
+<TD  width="156" height="20" ><A 
+    HREF="Join Us.htm"
+    onMouseOver = "rollover('Join Us')" 
+    onMouseOut  = "rollout('Join Us')" 
+    >
+<IMG 
+    SRC="Join Us.jpg" 
+    NAME="Join Us" 
+    ALT="Join Us" BORDER=0 width="156" height="20"
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Join Us Fade.jpg");
+//-->
+</SCRIPT>
+</TD>
+
+<TD width="156" height="20" ><A 
+    HREF="Gallery.htm"
+    onMouseOver = "rollover('Gallery')" 
+    onMouseOut  = "rollout('Gallery')" 
+    >
+<IMG 
+    SRC="Gallery.jpg" 
+    NAME="Gallery" 
+    ALT="Gallery" BORDER=0 width="156" height="20" 
+    
+    ></A>
+<SCRIPT TYPE="text/javascript">
+<!--
+setrollover("Gallery Fade.jpg");
+//-->
+</SCRIPT>
+</TD>
+
+</tr>
+
+</Table>
+
+<table align="center" BORDER="0" width="640" height="10">
+<TR>
+<hr size="1"width="640"></hr></font>
+</p>
+</tr>
+</Table>
+
+
+<table align="center";style="display: inline-block; border: 1px solid;>
+
+<tdcolspan="8" width="640"></td>
+
+<td rowspan="7" cellpadding="10" frame="2" width="9">
+</td>
+
+<td rowspan="8" cellpadding="10" frame="2" width="562">
+</p>
+<p align="center"><font color="#FFFFFF"><b><u>
+DIVIDENDS</u></b></p>
+<p align="justify"><font color="#FFFFFF">
+
+All the financial benefits of the credit union are shared among members as dividends; after having deducted all expenses.
+
+</font></p>
+
+<p align="center"><font color="#FFFFFF"><b><u>
+LOANS</u></b></p>
+
+<p align="justify"><font color="#FFFFFF">
+Loans shall be granted to members for provident and productive purposes after six months of continuous contributions.  
+
+</font></p>
+
+
+<p align="center"><font color="#FFFFFF"><b><u>
+RATE OF INTEREST</u></b></p>
+<p align="justify"><font color="#FFFFFF">
+
+The rate of interest charged on loan will be at 1% per month calculated on the unpaid balance.
+</font></p>
+
+<hr size="1" width="640" align="center"></hr>
+</td></tr>
+
+
+</table>
